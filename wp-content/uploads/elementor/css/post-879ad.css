@@ -1,0 +1,69 @@
+.elementor-kit-8{--e-global-color-primary:#6EC1E4;--e-global-color-secondary:#54595F;--e-global-color-text:#7A7A7A;--e-global-color-accent:#61CE70;--e-global-color-2b9561b:#EEEEEE;--e-global-typography-primary-font-family:"Forma";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Forma";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Forma";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Forma";--e-global-typography-accent-font-weight:500;--e-global-typography-a5bd448-font-family:"Forma Display";--e-global-typography-a5bd448-font-size:36px;--e-global-typography-a5bd448-font-weight:100;color:#949494;font-family:"Forma Text", Sans-serif;font-size:22px;background-color:#141414;}.elementor-kit-8 a{color:#EEEEEE;}.elementor-kit-8 a:hover{color:#FAD113;}.elementor-kit-8 h1{color:#EEEEEE;font-family:"Forma Display Bold", Sans-serif;font-size:36px;}.elementor-kit-8 h2{color:#EEEEEE;font-family:"Forma Display", Sans-serif;font-size:36px;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1140px;}.elementor-widget:not(:last-child){margin-bottom:20px;}{}h1.entry-title{display:var(--page-title-display);}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}}@media(max-width:767px){.elementor-kit-8{--e-global-typography-a5bd448-font-size:20px;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}}/* Start custom CSS */header.sticky-header {
+    --header-height: 30px;
+    --opacity: 0.90;
+    --shrink-me: 0.30;
+    --sticky-background-color: #141414;
+    --transition: .3s ease-in-out;
+
+    transition: background-color var(--transition),
+                background-image var(--transition),
+                backdrop-filter var(--transition),
+                opacity var(--transition);
+}
+header.sticky-header.elementor-sticky--effects {
+    background-color: var(--sticky-background-color) !important;
+    background-image: none !important;
+    opacity: var(--opacity) !important;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+header.sticky-header > .elementor-container {
+    transition: min-height var(--transition);
+}
+header.sticky-header.elementor-sticky--effects > .elementor-container {
+    min-height: calc(var(--header-height) * var(--shrink-me))!important;
+    height: calc(var(--header-height) * var(--shrink-me));
+}
+header.sticky-header .elementor-nav-menu .elementor-item {
+    transition: padding var(--transition);
+}
+header.sticky-header.elementor-sticky--effects .elementor-nav-menu .elementor-item {
+    padding-bottom: 10px!important;
+    padding-top: 10px!important;
+}
+header.sticky-header > .elementor-container .logo img {
+    transition: max-width var(--transition);
+}
+header.sticky-header.elementor-sticky--effects .logo img {
+    max-width: calc(100% * var(--shrink-me));
+}/* End custom CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Forma Display';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://gmacchione.comwp-content/uploads/2021/04/FormaDJRDisplay-Regular-Edu.woff2') format('woff2'),
+		url('../../2021/04/FormaDJRDisplay-Regular-Edu.woff') format('woff'),
+		url('../../2021/04/FormaDJRDisplay-Regular-Edu.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Forma Text';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://gmacchione.comwp-content/uploads/2021/04/FormaDJRText-Regular-Edu.woff2') format('woff2'),
+		url('../../2021/04/FormaDJRText-Regular-Edu.woff') format('woff'),
+		url('../../2021/04/FormaDJRText-Regular-Edu.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Forma Display Bold';
+	font-style: normal;
+	font-weight: bold;
+	font-display: auto;
+	src: url('https://gmacchione.comwp-content/uploads/2021/04/FormaDJRDisplay-Bold-Edu.woff2') format('woff2'),
+		url('../../2021/04/FormaDJRDisplay-Bold-Edu.woff') format('woff'),
+		url('../../2021/04/FormaDJRDisplay-Bold-Edu.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */

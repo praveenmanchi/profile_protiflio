@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    padding: 5%;
+    background-color: black;
+
+
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0px;
+
+}
+
+.image {
+    width: 95%;
+    height: 70%;
+    margin-right: 10px;
+
+}
+
+.heading {
+    margin-top: 20px;
+    color: white;
+    font-family: "Arial";
+    font-size: 34px;
+    font-weight: 200;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.para {
+    margin-top: 0px;
+    color: grey;
+    font-family: "Arial";
+    font-size: 20px;
+}
+
+
+.display {
+    display: none;
+}
+
+.bg1-container {
+    background-color: black;
+    width: 100vw;
+
+}
+
+.back-button {
+    font-family: "Arial";
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+    font-size: 15px;
+    height: 36px;
+    width: 132px;
+    border-radius: 10px;
+    /* margin-bottom: 13px;
+    margin-left: 7px;
+    margin-top: 100px; */
+    margin: 100px 0 13px 7px;
+   
+
+}
+
+.imageoc {
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.BABE-CARE-UI-UX- {
+    width: 305px;
+    height: 31px;
+    margin: 68px 509px 28px 64px;
+    font-family: "Arial";
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+    color: #fff;
+
+}
+
+.two-flex-items-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.first-flex-heading {
+    font-family: "Arial";
+    font-size: 28px;
+    font-weight: 400;
+    color: white;
+
+}
+
+.first-item {
+    margin-right: 20px;
+    width: 250px;
+}
+
+.first-flex-para {
+    font-family: "Arial";
+    font-size: 18px;
+    font-weight: 200;
+    color: grey;
+}
+
+.first-flex-para2 {
+    font-family: "Arial";
+    font-size: 18px;
+    font-weight: 200;
+    color: grey;
+    padding-left: 15px;
+}
+
+.second-flex-item {
+    padding: 20px;
+    margin-left: 20px;
+
+}
+
+
+
+.second-flex-heading {
+    font-family: "Consolas";
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 7px;
+
+
+}
+
+.download-button {
+    font-family: "Arial";
+    color: white;
+    border-width: 0px;
+    background-color: #2270e6;
+    font-size: 15px;
+    height: 50px;
+    width: 170px;
+    border-radius: 10px;
+    margin-bottom: 13px;
+
+}
+
+.bottom-margin {
+    margin-bottom: 40px;
+}
+
+.Rectangle-113 {
+    width: 1400px;
+    height: 2115px;
+
+    margin-bottom: 40px;
+    object-fit: contain;
+    border: solid 1px #707070;
+    background-color: #fff;
+}
