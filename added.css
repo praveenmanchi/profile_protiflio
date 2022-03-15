@@ -164,8 +164,17 @@ body {
     width: 1400px;
     height: 2115px;
 
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     object-fit: contain;
     border: solid 1px #707070;
-    background-color: #fff;
+    
+}
+.Rectangle-100 {
+    width: 1400px;
+    
+
+    margin-bottom: 10px;
+    object-fit: contain;
+    border: solid 1px #707070;
+    
 }
